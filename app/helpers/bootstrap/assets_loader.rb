@@ -41,6 +41,7 @@ module Bootstrap::AssetsLoader
 
 
     def load_bs_module_modals
+      render('common/modal_base') + 
       bs_include_js('bootstrap_modal')
     end
 
